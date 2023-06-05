@@ -9,6 +9,7 @@ public class TTSInference : MonoBehaviour, IDisposable
     private string fastspeech;
     [SerializeField]
     private string melgan;
+
     [Range(0.0f, 1.0f), Tooltip("Lower Value = Faster Speed")]
     public float speedRatio = 1.0f;
 
